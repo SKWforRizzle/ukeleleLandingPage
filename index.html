@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Nice! Ukelele</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        
+        <!---FontAwesome Source-->
+        <script src="https://kit.fontawesome.com/24c36f9705.js" crossorigin="anonymous"></script>   
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!---Google Fonts Source-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="header">
+            <!---header/nav Section-->
+            <div class="navbar">
+                
+                    <h1 class="product-title"><img src="images/ukelele.png" alt="ukelele" id="header-img" width="6%">Nice! Ukelele</h1>
+            <nav id="nav-bar">   
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#video-content" class="nav-link">How to Ukelele</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+            </nav> 
+            </div>
+        </header>
+        <div class="main-content">
+        <!---product Features Section-->
+        <div id="features">
+                <div class="quality-features">
+                    <div class="quality-icon">
+                    <i class="fa-solid fa-hand-holding-heart fa-5x"></i>
+                    </div>
+                    <div class="quality-info">
+                    <h3 class="features-labels">Hand-Crafted Quality</h3>
+                    <p class="features-details">Our Ukeleles are hand-crafted and sourced locally. The human care will increase the longevity of your purchase.</p>
+                    </div>
+                </div>
+                <div class="shipping-features">
+                    <div class="shipping-icon">
+                    <i class="fa-solid fa-truck-fast fa-5x"></i>
+                    </div>
+                    <div class="shipping-info">
+                    <h3 class="features-labels">Fast Shipping</h3>
+                    <p class="features-details">We make sure you recieve your Ukelele as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                    </div>
+                </div>
+                <div class="important-features">
+                    <div class="important-icon">
+                        <i class="fa-solid fa-brain fa-5x"></i>
+                    </div>
+                    <div class="important-info">
+                    <h3 class="features-labels">Why Ukeleles?</h3>
+                    <p class="features-details">Many studies have been done showing the value of playing music. It improves cognitive functions in young ones and health for seniors. For most of us, it just makes us happy! Aloha!</p>
+                    </div>
+                </div>
+        </div>
+
+        <!---email Form Section-->
+        <div id="form-section">
+            <h3 class="email-label">Hand-Crafted, Locally Made Ukeleles</h3>
+            <form 
+            action="mailto:https://www.freecodecamp.com/email-submit" id="form">
+                <input 
+                type="email" 
+                name="email" 
+                id="email"
+                placeholder="Enter your E-mail Address">
+            <div class="submitbutton"><button type="submit" id="submit">Get Started</button></div>
+            </form>
+        </div>
+
+        <!--Video Section-->
+        <div id="video-content">
+            <div class="vid-title"><h3 class="howtoUkelele">How to Ukelele?</h3></div>
+            <div class="vid-section">            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/5bTE5fbxDsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+        </div>
+        
+        <!---pricing Section-->
+        <div id="pricing">
+            <div class="soprano">
+                <div class="soprano-title">
+                    <h4>Soprano Ukelele</h4>
+                </div>
+                <div class="soprano-info">
+                    <h3 class="price">$350</h5>
+                        <p>Lorem ipsum.</p>
+                        <p>Lorem ipsum.</p>
+                        <p>Lorem ipsum dolor.</p>
+                    <button type="button">Click Me!</button> 
+                </div>
+            </div>
+            <div class="concerto">
+                <div class="concerto-title">
+                    <h4>Concerto Ukelele</h4>
+                </div>
+                <div class="oncerto-info">
+                    <h3 class="price">$650</h5>
+                        <p>Lorem ipsum.</p>
+                        <p>Lorem ipsum.</p>
+                        <p>Lorem ipsum dolor.</p>
+                    <button type="button">Click Me!</button>
+                </div>
+            </div>
+            <div class="tenor">
+                <div class="tenor-title">
+                    <h4>Tenor Ukelele</h4>
+                </div>
+                <div class="tenor-info">
+                    <h3 class="price">$950</h5>
+                        <p>Lorem ipsum.</p>
+                        <p>Lorem ipsum.</p>
+                        <p>Lorem ipsum dolor.</p>
+                    <button type="button">Click Me!</button>  
+                </div>
+            </div>
+        </div>
+    </div>
+        <!---footer Section-->
+        <footer id="footer">
+            <i class="fa-solid fa-guitar"></i> Nice! Ukelele
+            <a href="#form-section">Contact Us</a>
+        </footer>
+        <script src="index.js" async defer></script>
+    </body>
+</html>
